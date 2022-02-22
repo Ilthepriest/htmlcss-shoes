@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+#bottoni{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+
+.bottone a{
+    /* border-radius: 5px; */
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Dela Gothic One';
+    
+}
+
+.bottone{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
 .sfondo{
     height: 100vh;
     position: relative;
@@ -34,7 +59,14 @@ strong{
     text-transform: uppercase;
     text-align: center;
     color: yellow;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: 'Dela Gothic One';    
 }
+
+
+
+
+
+
 
 
